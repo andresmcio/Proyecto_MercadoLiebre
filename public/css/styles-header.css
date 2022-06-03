@@ -1,0 +1,177 @@
+header {
+    background-color: #EAC926;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    width: 40%;
+}
+
+.input-field{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    margin-top: 5%;
+    width: 55%;
+}
+
+.input-field>input{
+    background-color: #ebebeb;
+    border-style: none;
+    border-radius:  1rem 0 0 1rem;
+    font-size: 0.5rem;
+    height: 2.5em;
+    margin-left: 1em;
+    padding-left: 1em;
+    outline: none;
+    width: 65%;
+}
+
+.search-btn{
+    align-items: center;
+    border-radius: 0 1rem 1rem 0;
+    background-color: #ebebeb;
+    color: #666;
+    display: flex;
+    font-size: 0.6rem;
+    justify-content: center;
+    padding: 0.5em;
+    height: 1.1em;
+    width: 0.5em;
+}
+
+.heading>h3{
+    align-self: center;
+    justify-self: center;
+    font-weight: 600;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.big-screen{
+    display: none;
+}
+
+nav>a{
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+
+.small-screen{
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    height: 20%;
+    justify-content: center;  
+    margin-left: 50%;
+    margin-bottom: 5%;
+    position: relative;
+}
+
+.burger-menu{
+    align-self: center;
+    background-color: #1259c3;
+    border-radius: 3px;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    color: #ffffff;
+    height: 25px;
+    padding: 2%;
+    width: 25px;
+    right: 25vw;
+    position: relative;
+    top: 0.5em;
+}
+
+.burger-menu>i{
+    color: #ffffff;
+    align-self: center;
+}
+
+.banner{
+    box-sizing: border-box;
+    height: 15vh;
+}
+
+.banner>img{
+    height: 100%;
+    width: 100vw;
+}
+
+@media only screen and (min-width: 361px){
+
+    .logo{
+        width: 30%;
+    }
+
+    .input-field{
+        width: 20%;
+    }
+    
+    .input-field{
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+    }
+
+    .heading{
+        align-items: center;
+        margin-right: 5%;
+        width: 30%;
+    }
+
+    .heading>h3{
+        position: relative;
+        top: 50%;
+    }
+
+    .big-screen{
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        font-size: 0.5rem;
+        font-weight: 500;
+        gap: 0.5em;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        width: 40%;
+    }
+
+    .nav1{
+        justify-content: flex-start;
+        margin-left: 5%;
+    }
+
+    .nav2{
+        justify-content: flex-end;
+        margin-right: 5%;
+    }
+
+    .small-screen{
+        display: none;
+    }
+}
+
+@media only screen and (min-width:775px){
+
+    .input-field{
+        margin-left: 5%;
+    }
+
+    .big-screen{
+        font-size: 0.7rem;
+    }
+
+    .banner{
+        height: 30vh;
+    }
+}
