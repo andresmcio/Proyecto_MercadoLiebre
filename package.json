@@ -1,7 +1,7 @@
 {
   "name": "proyecto",
   "version": "1.0.0",
-  "description": "",
+  "description": "Mercado Liebre",
   "main": "index.js",
   "scripts": {
     "test": "node src/index.js"

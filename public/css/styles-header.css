@@ -60,6 +60,10 @@ header {
     display: none;
 }
 
+.big-screen>a>i{
+    margin-left: 0.1em;
+}
+
 nav>a{
     display: block;
     color: #000;
@@ -159,6 +163,10 @@ nav>a{
     .small-screen{
         display: none;
     }
+
+    .banner{
+        height: 25vh;
+    }
 }
 
 @media only screen and (min-width:775px){
@@ -167,11 +175,19 @@ nav>a{
         margin-left: 5%;
     }
 
+    .search-btn{
+        height: 1.085em;
+    }
+
     .big-screen{
         font-size: 0.7rem;
     }
 
     .banner{
         height: 30vh;
+    }
+
+    .heading>h3{
+        top: 55%;
     }
 }
