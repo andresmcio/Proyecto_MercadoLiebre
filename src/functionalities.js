@@ -14,3 +14,5 @@ function previewProfilePic() {
 
     preview.style.display = 'block';
   }
+
+  module.exports = previewProfilePic;
