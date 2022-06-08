@@ -34,6 +34,36 @@ footer>article{
     }
 }
 
-/* @media only screen and (min-width:775px){
+@media only screen and (min-width:775px){
 
-}  */
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5em;
+        justify-content: center;
+    }
+
+    footer>article{
+        width: 30vw;
+    }
+
+    footer>div{
+        box-sizing: border-box;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        text-align: left;
+        width: 100vw;
+    }
+
+    footer>div>span{
+        margin-left: 5%;
+    }
+
+    .footer-icon{
+        transition: 0.3s color ease-in-out;
+    }
+
+    .footer-icon:hover{
+        color: #0022AA;
+    }
+} 

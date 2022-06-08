@@ -255,9 +255,12 @@ input[type="checkbox"]{
     }
     
     .products>article{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
         margin: 0;
         width: 45%;
+    }
+
+    .products>article:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
 
     .products>h4{
@@ -282,7 +285,12 @@ input[type="checkbox"]{
     }
 
     .description{
+        display: none;
         font-size: 0.7rem;
+    }
+
+    .products>article:hover .description{
+        display: flex;
     }
 
     .fa-truck{
@@ -290,5 +298,20 @@ input[type="checkbox"]{
         padding: 0.1rem;
         width: 1rem;
         height: 1rem;
+        transition: transform 0.5s;
+    }
+
+    .products>article:hover .fa-truck{
+        transform: rotate(-90deg);
+    }
+
+    /* Forms */
+
+    #loginButton{
+        transition: background-color 0.5s ease-in;
+    }
+
+    #loginButton:hover{
+        background-color: #0022AA;
     }
 }
