@@ -1,7 +1,7 @@
 const path = require('path');
 const express = require('express');
 const app = express();
-const port = process.env.PORT || 1010
+const port = process.env.PORT || 1010;
 // const previewProfilePic = require('./functionalities.js');
 
 app.listen(port, () => console.log('Server started at http:/localhost: ' + port + ' ...'));
