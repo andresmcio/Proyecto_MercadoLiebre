@@ -3,14 +3,22 @@ header {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    height: 20vh;
+    justify-content: center;
+    width: 100%;
+}
+
+.nav-heading{
+    height: 23vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
     width: 100%;
 }
 
 .logo {
     display: flex;
-    margin-top: 10%;
+    margin-top: 2.5%;
     margin-left: 5%;
     margin-bottom: 5%;
     width: 40%;
@@ -19,7 +27,7 @@ header {
 .input-field{
     display: flex;
     flex-grow: 1;
-    align-items: center;
+    align-content: center;
     margin-top: 5%;
     width: 55%;
 }
@@ -121,32 +129,36 @@ nav>a{
 
     .input-field{
         width: 20%;
-    }
-    
-    .input-field{
-        margin-left: 0.5%;
+        margin-left: 1em;
         margin-right: 0.5%;
+        margin-top: 3rem;
+    }
+
+    .nav-heading{
+        height: 40vh;
     }
 
     .heading{
-        align-items: center;
+        align-content: center;
         margin-right: 5%;
         width: 30%;
     }
 
     .heading>h3{
         position: relative;
-        top: 50%;
+        top: 35%;
     }
 
     .big-screen{
+        box-sizing: border-box;
         display: flex;
         flex-wrap: wrap;
         flex-grow: 1;
         font-size: 0.5rem;
         font-weight: 500;
+        height: max-content;
         gap: 0.5em;
-        margin-bottom: 5%;
+        margin-bottom: 1%;
         margin-top: 5%;
         width: 40%;
     }
@@ -172,6 +184,10 @@ nav>a{
 
 @media only screen and (min-width:775px){
 
+    .logo{
+        width: 15rem;
+    }
+
     .input-field{
         margin-left: 5%;
     }
@@ -186,9 +202,5 @@ nav>a{
 
     .banner{
         height: 30vh;
-    }
-
-    .heading>h3{
-        top: 55%;
     }
 }
