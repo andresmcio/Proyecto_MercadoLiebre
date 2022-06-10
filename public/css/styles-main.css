@@ -158,6 +158,14 @@ main>form>fieldset>input{
     width: 8rem;
 }
 
+.user-profile{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin-left: 10%;
+    margin-bottom: 1.5em;
+}
+
 input[type="date"]{
     font-family: 'Roboto', sans-serif;
 }
